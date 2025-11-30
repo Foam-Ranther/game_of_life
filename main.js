@@ -1,11 +1,22 @@
 import { gameOfLife } from "./src/programs.js";
-
-const isEven = (a) => {
-  const r = a % 2 === 0;
-  return r;
-};
-
+import { grid } from "./src/grid.js";
+import {
+  achim101InitialPos,
+  cabbageInitialPos,
+  eaterInitialPos,
+  gliderInitialPos,
+  gosperGliderGunInitialPos,
+  lwssInitialPos,
+  oscialltorInitialPos,
+  p60PufferInitialPos,
+  pulsarInitialPos,
+  rPentominoInitialPos,
+  slider,
+  stablePosition,
+  trafficLightInitialPos,
+} from "./src/block_positions.js";
 const main = () => {
-  gameOfLife();
+  gameOfLife(grid, cabbageInitialPos);
 };
+
 main();
