@@ -329,3 +329,209 @@ export const achim101InitialPos = [
   { positions: [26, 27], life: true },
   { positions: [26, 28], life: true },
 ];
+
+export const beaconInitialPos = [
+  // Block 1 (Top-Left)
+  { positions: [15, 15], life: true },
+  { positions: [15, 16], life: true },
+  { positions: [16, 15], life: true },
+  { positions: [16, 16], life: true },
+
+  // Block 2 (Bottom-Right)
+  { positions: [17, 17], life: true },
+  { positions: [17, 18], life: true },
+  { positions: [18, 17], life: true },
+  { positions: [18, 18], life: true },
+];
+
+export const toadInitialPos = [
+  // Row 1
+  { positions: [15, 16], life: true },
+  { positions: [15, 17], life: true },
+  { positions: [15, 18], life: true },
+
+  // Row 2 (Shifted left by one)
+  { positions: [16, 15], life: true },
+  { positions: [16, 16], life: true },
+  { positions: [16, 17], life: true },
+];
+
+export const galaxyInitialPos = [
+  // --- Block 1: Top Horizontal Bar (6x2) ---
+  { positions: [12, 17], life: true },
+  { positions: [12, 18], life: true },
+  { positions: [12, 19], life: true },
+  { positions: [12, 20], life: true },
+  { positions: [12, 21], life: true },
+  { positions: [12, 22], life: true },
+  { positions: [13, 17], life: true },
+  { positions: [13, 18], life: true },
+  { positions: [13, 19], life: true },
+  { positions: [13, 20], life: true },
+  { positions: [13, 21], life: true },
+  { positions: [13, 22], life: true },
+
+  // --- Block 2: Left Vertical Bar (2x6) ---
+  { positions: [14, 15], life: true },
+  { positions: [14, 16], life: true },
+  { positions: [15, 15], life: true },
+  { positions: [15, 16], life: true },
+  { positions: [16, 15], life: true },
+  { positions: [16, 16], life: true },
+  { positions: [17, 15], life: true },
+  { positions: [17, 16], life: true },
+  { positions: [18, 15], life: true },
+  { positions: [18, 16], life: true },
+  { positions: [19, 15], life: true },
+  { positions: [19, 16], life: true },
+
+  // --- Block 3: Right Vertical Bar (2x6) ---
+  { positions: [14, 23], life: true },
+  { positions: [14, 24], life: true },
+  { positions: [15, 23], life: true },
+  { positions: [15, 24], life: true },
+  { positions: [16, 23], life: true },
+  { positions: [16, 24], life: true },
+  { positions: [17, 23], life: true },
+  { positions: [17, 24], life: true },
+  { positions: [18, 23], life: true },
+  { positions: [18, 24], life: true },
+  { positions: [19, 23], life: true },
+  { positions: [19, 24], life: true },
+
+  // --- Block 4: Bottom Horizontal Bar (6x2) ---
+  { positions: [20, 17], life: true },
+  { positions: [20, 18], life: true },
+  { positions: [20, 19], life: true },
+  { positions: [20, 20], life: true },
+  { positions: [20, 21], life: true },
+  { positions: [20, 22], life: true },
+  { positions: [21, 17], life: true },
+  { positions: [21, 18], life: true },
+  { positions: [21, 19], life: true },
+  { positions: [21, 20], life: true },
+  { positions: [21, 21], life: true },
+  { positions: [21, 22], life: true },
+];
+
+export const phoenixInitialPos = [
+  { positions: [14, 18], life: true },
+  { positions: [15, 16], life: true },
+  { positions: [15, 18], life: true },
+  { positions: [16, 14], life: true },
+  { positions: [17, 14], life: true },
+  { positions: [18, 14], life: true },
+  { positions: [19, 15], life: true },
+  { positions: [19, 16], life: true },
+
+  // Symmetrical opposite side
+  { positions: [14, 23], life: true },
+  { positions: [15, 23], life: true },
+  { positions: [16, 25], life: true },
+  { positions: [17, 25], life: true },
+  { positions: [18, 21], life: true },
+  { positions: [18, 23], life: true },
+  { positions: [19, 21], life: true },
+];
+
+export const checkerboardInitialPos = [
+  // A 4x4 block of alternating cells
+  { positions: [15, 15], life: true },
+  { positions: [15, 17], life: true },
+  { positions: [16, 16], life: true },
+  { positions: [16, 18], life: true },
+  { positions: [17, 15], life: true },
+  { positions: [17, 17], life: true },
+  { positions: [18, 16], life: true },
+  { positions: [18, 18], life: true },
+];
+
+export const textHiInitialPos = [
+  // --- Letter H ---
+  // Left Vertical Leg
+  { positions: [10, 10], life: true },
+  { positions: [10, 11], life: true },
+  { positions: [11, 10], life: true },
+  { positions: [11, 11], life: true }, // Top Block
+  { positions: [13, 10], life: true },
+  { positions: [13, 11], life: true },
+  { positions: [14, 10], life: true },
+  { positions: [14, 11], life: true }, // Mid Block
+  { positions: [16, 10], life: true },
+  { positions: [16, 11], life: true },
+  { positions: [17, 10], life: true },
+  { positions: [17, 11], life: true }, // Bot Block
+
+  // Middle Horizontal Bar
+  { positions: [13, 13], life: true },
+  { positions: [13, 14], life: true },
+  { positions: [14, 13], life: true },
+  { positions: [14, 14], life: true },
+
+  // Right Vertical Leg
+  { positions: [10, 16], life: true },
+  { positions: [10, 17], life: true },
+  { positions: [11, 16], life: true },
+  { positions: [11, 17], life: true }, // Top Block
+  { positions: [13, 16], life: true },
+  { positions: [13, 17], life: true },
+  { positions: [14, 16], life: true },
+  { positions: [14, 17], life: true }, // Mid Block
+  { positions: [16, 16], life: true },
+  { positions: [16, 17], life: true },
+  { positions: [17, 16], life: true },
+  { positions: [17, 17], life: true }, // Bot Block
+
+  // --- Letter I ---
+  // Vertical Line
+  { positions: [10, 20], life: true },
+  { positions: [10, 21], life: true },
+  { positions: [11, 20], life: true },
+  { positions: [11, 21], life: true }, // Top Block
+  { positions: [13, 20], life: true },
+  { positions: [13, 21], life: true },
+  { positions: [14, 20], life: true },
+  { positions: [14, 21], life: true }, // Mid Block
+  { positions: [16, 20], life: true },
+  { positions: [16, 21], life: true },
+  { positions: [17, 20], life: true },
+  { positions: [17, 21], life: true }, // Bot Block
+];
+
+export const invaderInitialPos = [
+  // Top antenna
+  { positions: [10, 14], life: true },
+  { positions: [10, 16], life: true },
+
+  // Head
+  { positions: [11, 13], life: true },
+  { positions: [11, 17], life: true },
+
+  // Body (Solid line)
+  { positions: [12, 13], life: true },
+  { positions: [12, 14], life: true },
+  { positions: [12, 15], life: true },
+  { positions: [12, 16], life: true },
+  { positions: [12, 17], life: true },
+
+  // Base
+  { positions: [13, 12], life: true },
+  { positions: [13, 13], life: true },
+  { positions: [13, 15], life: true },
+  { positions: [13, 17], life: true },
+  { positions: [13, 18], life: true },
+
+  // Legs
+  { positions: [14, 13], life: true },
+  { positions: [14, 17], life: true },
+];
+
+export const coolMultiplier = [
+  { positions: [14, 15], life: true },
+  { positions: [15, 14], life: true },
+  { positions: [16, 14], life: true },
+  { positions: [17, 15], life: true },
+  { positions: [16, 16], life: true },
+  { positions: [15, 16], life: true },
+  { positions: [16, 15], life: true },
+];
