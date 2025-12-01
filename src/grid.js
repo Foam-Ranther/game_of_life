@@ -1,11 +1,5 @@
-const size = 70;
-
-const createGrid = (size) => {
-  const tempArray = [];
-  for (let index = 0; index < size / 2; index++) {
-    tempArray.push(" ".repeat(size).split(""));
-  }
-  return tempArray;
-};
-
-export const grid = createGrid(size);
+export const createGrid = (height, width) =>
+  Array.from(
+    { length: height },
+    (_) => Array.from({ length: width }, (_) => " "),
+  );

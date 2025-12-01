@@ -1,5 +1,5 @@
 import { gameOfLife } from "./src/programs.js";
-import { grid } from "./src/grid.js";
+import { createGrid } from "./src/grid.js";
 import {
   achim101InitialPos,
   beaconInitialPos,
@@ -24,7 +24,8 @@ import {
   trafficLightInitialPos,
 } from "./src/block_positions.js";
 const main = () => {
-  gameOfLife(grid, coolMultiplier);
+  const grid = createGrid(40, 80);
+  gameOfLife(grid, achim101InitialPos);
 };
 
 main();

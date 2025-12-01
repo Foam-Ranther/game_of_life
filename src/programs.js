@@ -1,5 +1,3 @@
-import { grid } from "./grid.js";
-
 export const printGrid = (grid) => {
   for (const row of grid) {
     console.log(row.join(""));
@@ -55,7 +53,7 @@ export const getAliveBlocks = (grid, char) => {
 
 const emptyGrid = (grid) => {
   grid.map((row, i) =>
-    row.map((col, j) => {
+    row.map((_, j) => {
       grid[i][j] = " ";
     })
   );
